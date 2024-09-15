@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
+}
+
+.task-item {
+    background-color: #e9ecef;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background-color: #c82333;
+}
