@@ -6,3 +6,13 @@ body {
     background-color: #f8f9fa;
     margin-bottom: 30px;
 }
+
+.task-item {
+    background-color: #e9ecef;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
