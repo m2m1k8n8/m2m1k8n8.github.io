@@ -1,3 +1,8 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+.jumbotron {
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
+}
