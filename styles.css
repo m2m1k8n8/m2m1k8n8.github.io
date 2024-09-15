@@ -16,3 +16,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.task-item button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
