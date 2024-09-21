@@ -6,6 +6,15 @@ $(document).ready(function() {
             return;
         }
 
+        const existingTask = $('#task-list').find('.task-item').filter(function(){
+            return $(this).find('span').text() === taskName;
+        });
+
+        if (existingTask.length > 0) {
+            alert('Task already exists!');
+            return;
+        }
+        
         const taskItem = $('<div class="col-md-6 task-item"></div>').append(
             $('<span></span>').text(taskName),
             $('<button>Delete</button>').on('click', function() {
