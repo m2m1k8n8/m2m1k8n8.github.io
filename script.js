@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         const taskItem = $('<div class="col-md-6 task-item"></div>').append(
             $('<span></span>').text(taskName),
-            $('<button>Delete</button>').on('click', function() {
+            $('<button type="button">Delete</button>').on('click', function() {
                 $(this).parent().remove();
             })
         );
